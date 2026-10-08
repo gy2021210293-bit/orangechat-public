@@ -1,0 +1,53 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/captures
+.externalNativeBuild
+.cxx
+
+# 构建产物（所有模块）
+**/build/
+local.properties
+.cursor
+.history
+.kotlin
+node_modules/
+.cache/
+dist/
+.next/
+.env
+**/.gradle/
+**/.idea/
+.gradle-home/
+.gradle_home/
+*.class
+*.jar
+!gradle-wrapper.jar
+
+# 构建产物、日志与临时调试文件
+build_*.txt
+build_*.log
+_chk/
+_chk.zip
+*.apk
+*.aab
+_projB_*.txt
+.projB_*.txt
+gen_*.py
+_gen.py
+
+# 签名密钥（绝不可提交）
+*.jks
+*.keystore
+keystore.properties
+
+# 上游只读参考副本
+.upstream/
+
+# 本机协作记忆与调试痕迹，不进入公开仓库
+/MEMORY.md
+/.codex-*
+/.playwright-cli/
+/.public-export/

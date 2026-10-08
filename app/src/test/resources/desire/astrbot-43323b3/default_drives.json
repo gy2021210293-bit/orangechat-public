@@ -1,0 +1,92 @@
+{
+  "attachment": {
+    "name": "attachment",
+    "value": 40.0,
+    "baseline": 40.0,
+    "decay_rate": 0.1,
+    "growth_rate": 0.2,
+    "ceiling": 100.0,
+    "floor": 0.0,
+    "action_threshold": 70.0
+  },
+  "curiosity": {
+    "name": "curiosity",
+    "value": 40.0,
+    "baseline": 40.0,
+    "decay_rate": 0.1,
+    "growth_rate": 0.2,
+    "ceiling": 100.0,
+    "floor": 0.0,
+    "action_threshold": 60.0
+  },
+  "reflection": {
+    "name": "reflection",
+    "value": 30.0,
+    "baseline": 30.0,
+    "decay_rate": 0.2,
+    "growth_rate": 0.15,
+    "ceiling": 100.0,
+    "floor": 0.0,
+    "action_threshold": 50.0
+  },
+  "duty": {
+    "name": "duty",
+    "value": 40.0,
+    "baseline": 40.0,
+    "decay_rate": 0.2,
+    "growth_rate": 0.1,
+    "ceiling": 100.0,
+    "floor": 0.0,
+    "action_threshold": 70.0
+  },
+  "social": {
+    "name": "social",
+    "value": 30.0,
+    "baseline": 30.0,
+    "decay_rate": 0.15,
+    "growth_rate": 0.1,
+    "ceiling": 100.0,
+    "floor": 0.0,
+    "action_threshold": 60.0
+  },
+  "fatigue": {
+    "name": "fatigue",
+    "value": 20.0,
+    "baseline": 20.0,
+    "decay_rate": 0.3,
+    "growth_rate": 0.0,
+    "ceiling": 100.0,
+    "floor": 0.0,
+    "action_threshold": 80.0
+  },
+  "intimacy": {
+    "name": "intimacy",
+    "value": 40.0,
+    "baseline": 40.0,
+    "decay_rate": 0.15,
+    "growth_rate": 0.1,
+    "ceiling": 100.0,
+    "floor": 0.0,
+    "action_threshold": 70.0
+  },
+  "stress": {
+    "name": "stress",
+    "value": 20.0,
+    "baseline": 20.0,
+    "decay_rate": 0.2,
+    "growth_rate": 0.0,
+    "ceiling": 100.0,
+    "floor": 0.0,
+    "action_threshold": 80.0
+  },
+  "joy": {
+    "name": "joy",
+    "value": 50.0,
+    "baseline": 50.0,
+    "decay_rate": 0.15,
+    "growth_rate": 0.0,
+    "ceiling": 100.0,
+    "floor": 0.0,
+    "action_threshold": 80.0
+  }
+}

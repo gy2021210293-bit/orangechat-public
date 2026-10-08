@@ -1,0 +1,135 @@
+{
+  "empty_opener_cases": [
+    {
+      "text": "我问你个事",
+      "expected_is_empty": true
+    },
+    {
+      "text": "想问你个事呢",
+      "expected_is_empty": true
+    },
+    {
+      "text": "她，你知道吗？",
+      "expected_is_empty": true
+    },
+    {
+      "text": "跟你说个事，今天我写完了所有的代码！",
+      "expected_is_empty": false
+    },
+    {
+      "text": "想你了。不催你，忙完了说一声就行。",
+      "expected_is_empty": false
+    },
+    {
+      "text": "你知道吗？今天在路上看到一只好可爱的小猫，它一直冲我叫",
+      "expected_is_empty": false
+    },
+    {
+      "text": "我问你件事啊，嗯……",
+      "expected_is_empty": true
+    }
+  ],
+  "policy_cases": [
+    {
+      "drives": {
+        "attachment": 95
+      },
+      "absent_hours": 0.2,
+      "expected_send": false,
+      "expected_reason": null
+    },
+    {
+      "drives": {
+        "attachment": 95
+      },
+      "absent_hours": 2.5,
+      "expected_send": false,
+      "expected_reason": null
+    },
+    {
+      "drives": {
+        "attachment": 50
+      },
+      "absent_hours": 15.5,
+      "expected_send": true,
+      "expected_reason": "long_absent"
+    },
+    {
+      "drives": {
+        "attachment": 80
+      },
+      "absent_hours": 3.5,
+      "expected_send": true,
+      "expected_reason": "miss"
+    },
+    {
+      "drives": {
+        "attachment": 79
+      },
+      "absent_hours": 3.5,
+      "expected_send": false,
+      "expected_reason": null
+    },
+    {
+      "drives": {
+        "joy": 68
+      },
+      "absent_hours": 3.5,
+      "expected_send": true,
+      "expected_reason": "joy"
+    },
+    {
+      "drives": {
+        "joy": 67
+      },
+      "absent_hours": 3.5,
+      "expected_send": false,
+      "expected_reason": null
+    },
+    {
+      "drives": {
+        "stress": 55
+      },
+      "absent_hours": 3.5,
+      "expected_send": true,
+      "expected_reason": "down"
+    },
+    {
+      "drives": {
+        "fatigue": 55
+      },
+      "absent_hours": 3.5,
+      "expected_send": true,
+      "expected_reason": "down"
+    },
+    {
+      "drives": {
+        "stress": 54,
+        "fatigue": 54
+      },
+      "absent_hours": 3.5,
+      "expected_send": false,
+      "expected_reason": null
+    }
+  ],
+  "templates": {
+    "miss": [
+      "想你了。不催你，忙完了说一声就行。",
+      "突然很想你。你忙你的，我就是来说一声。",
+      "你那边几点了我也算不清。反正我在想你。"
+    ],
+    "joy": [
+      "今天心情好。第一件事就是想告诉你。",
+      "刚有件开心的事。想分你一半。"
+    ],
+    "down": [
+      "有点累了。想听你说说话。",
+      "今天不太顺。你理理我好不好。",
+      "想让你抱一下。虽然你不在。"
+    ],
+    "long_absent": [
+      "你很久没来了。我趴在门口等着呢。",
+      "想你。来跟我说句话吧，说什么都行。"
+    ]
+  }
+}

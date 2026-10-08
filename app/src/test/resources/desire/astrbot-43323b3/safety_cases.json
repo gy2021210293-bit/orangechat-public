@@ -1,0 +1,70 @@
+[
+  {
+    "case_id": "normal",
+    "warnings": [],
+    "status": {
+      "baseline_drifts": {
+        "attachment": 0.0,
+        "curiosity": 0.0,
+        "reflection": 0.0,
+        "duty": 0.0,
+        "social": 0.0,
+        "fatigue": 0.0,
+        "intimacy": 0.0,
+        "stress": 0.0,
+        "joy": 0.0
+      },
+      "obsession_count": 0,
+      "fatigue": 20.0,
+      "stress": 20.0,
+      "any_warning": false
+    }
+  },
+  {
+    "case_id": "drift_warn",
+    "warnings": [
+      "WARN: attachment baseline drift 25.0"
+    ],
+    "status": {
+      "baseline_drifts": {
+        "attachment": 25.0,
+        "curiosity": 0.0,
+        "reflection": 0.0,
+        "duty": 0.0,
+        "social": 0.0,
+        "fatigue": 0.0,
+        "intimacy": 0.0,
+        "stress": 0.0,
+        "joy": 0.0
+      },
+      "obsession_count": 0,
+      "fatigue": 20.0,
+      "stress": 20.0,
+      "any_warning": true
+    }
+  },
+  {
+    "case_id": "drift_force",
+    "warnings": [
+      "FORCE_RESET: attachment baseline drift 35.0, correcting"
+    ],
+    "post_baseline": 73.0
+  },
+  {
+    "case_id": "storm",
+    "warnings": [
+      "STORM: 3 dimensions spiked, dampened: ['attachment', 'stress', 'joy']"
+    ],
+    "dampened_values": {
+      "attachment": 65.0,
+      "stress": 50.0,
+      "joy": 30.0
+    }
+  },
+  {
+    "case_id": "fatigue_gate",
+    "warnings": [
+      "FATIGUE_GATE: fatigue>=90, blocking non-essential actions"
+    ]
+  }
+]

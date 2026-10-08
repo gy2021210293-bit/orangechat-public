@@ -1,0 +1,20 @@
+{
+  "id": "com.orangechat.plugin.runtime_wake_test",
+  "name": "运行时自主唤醒测试",
+  "description": "用于验证插件系统通知、独立 Cron 调度、事件回调和 AI 自主唤醒链路。启用时立即测试 notification.show，并每 5 分钟测试一次 ai.wake。",
+  "version": "1.0.1",
+  "author": "OrangeChat Runtime Test",
+  "icon": "🧪",
+  "entry": "main.js",
+  "permissions": [
+    "ai_chat",
+    "notification"
+  ],
+  "hooks": [
+    {
+      "event": "daily_cron",
+      "handler": "onWakeTest",
+      "schedule": "*/5 * * * *"
+    }
+  ]
+}

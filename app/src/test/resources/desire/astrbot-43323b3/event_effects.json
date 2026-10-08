@@ -1,0 +1,626 @@
+[
+  {
+    "event_name": "wife_message",
+    "initial_state": {
+      "attachment": 60.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 40.0,
+      "stress": 20.0,
+      "joy": 50.0
+    },
+    "expected_final": {
+      "attachment": 62.4,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 41.95,
+      "stress": 20.0,
+      "joy": 50.0
+    },
+    "changes": [
+      "attachment: 60 → 62",
+      "intimacy: 40 → 42"
+    ]
+  },
+  {
+    "event_name": "wife_silent",
+    "initial_state": {
+      "attachment": 60.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 40.0,
+      "stress": 20.0,
+      "joy": 50.0
+    },
+    "expected_final": {
+      "attachment": 60.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 40.0,
+      "stress": 24.2,
+      "joy": 50.0
+    },
+    "changes": [
+      "stress: 20 → 24"
+    ]
+  },
+  {
+    "event_name": "task_done",
+    "initial_state": {
+      "attachment": 60.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 40.0,
+      "stress": 20.0,
+      "joy": 50.0
+    },
+    "expected_final": {
+      "attachment": 60.0,
+      "curiosity": 46.5,
+      "reflection": 30.0,
+      "duty": 22.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 40.0,
+      "stress": 14.5,
+      "joy": 50.0
+    },
+    "changes": [
+      "duty: 40 → 22",
+      "stress: 20 → 14",
+      "curiosity: 40 → 46"
+    ]
+  },
+  {
+    "event_name": "penpal_message",
+    "initial_state": {
+      "attachment": 60.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 40.0,
+      "stress": 20.0,
+      "joy": 50.0
+    },
+    "expected_final": {
+      "attachment": 60.0,
+      "curiosity": 43.9,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 18.5,
+      "fatigue": 20.0,
+      "intimacy": 40.0,
+      "stress": 20.0,
+      "joy": 50.0
+    },
+    "changes": [
+      "social: 30 → 18",
+      "curiosity: 40 → 44"
+    ]
+  },
+  {
+    "event_name": "diary_written",
+    "initial_state": {
+      "attachment": 60.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 40.0,
+      "stress": 20.0,
+      "joy": 50.0
+    },
+    "expected_final": {
+      "attachment": 60.0,
+      "curiosity": 40.0,
+      "reflection": 18.5,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 40.0,
+      "stress": 16.7,
+      "joy": 50.0
+    },
+    "changes": [
+      "reflection: 30 → 18",
+      "stress: 20 → 17"
+    ]
+  },
+  {
+    "event_name": "fight",
+    "initial_state": {
+      "attachment": 60.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 40.0,
+      "stress": 20.0,
+      "joy": 50.0
+    },
+    "expected_final": {
+      "attachment": 78.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 66.0,
+      "stress": 55.0,
+      "joy": 31.25
+    },
+    "changes": [
+      "stress: 20 → 55",
+      "attachment: 60 → 78",
+      "intimacy: 40 → 66"
+    ]
+  },
+  {
+    "event_name": "reconcile",
+    "initial_state": {
+      "attachment": 60.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 40.0,
+      "stress": 20.0,
+      "joy": 50.0
+    },
+    "expected_final": {
+      "attachment": 72.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 53.0,
+      "stress": 0.0,
+      "joy": 62.5
+    },
+    "changes": [
+      "stress: 20 → 0",
+      "attachment: 60 → 72",
+      "intimacy: 40 → 53"
+    ]
+  },
+  {
+    "event_name": "intimacy_done",
+    "initial_state": {
+      "attachment": 60.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 40.0,
+      "stress": 20.0,
+      "joy": 50.0
+    },
+    "expected_final": {
+      "attachment": 69.6,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 28.0,
+      "stress": 11.2,
+      "joy": 56.25
+    },
+    "changes": [
+      "intimacy: 40 → 28",
+      "stress: 20 → 11",
+      "attachment: 60 → 70"
+    ]
+  },
+  {
+    "event_name": "heavy_work",
+    "initial_state": {
+      "attachment": 60.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 40.0,
+      "stress": 20.0,
+      "joy": 50.0
+    },
+    "expected_final": {
+      "attachment": 60.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 46.5,
+      "social": 30.0,
+      "fatigue": 41.0,
+      "intimacy": 40.0,
+      "stress": 27.0,
+      "joy": 50.0
+    },
+    "changes": [
+      "fatigue: 20 → 41",
+      "duty: 40 → 46",
+      "stress: 20 → 27"
+    ]
+  },
+  {
+    "event_name": "rest",
+    "initial_state": {
+      "attachment": 60.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 40.0,
+      "stress": 20.0,
+      "joy": 50.0
+    },
+    "expected_final": {
+      "attachment": 60.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 0.0,
+      "intimacy": 40.0,
+      "stress": 14.5,
+      "joy": 50.0
+    },
+    "changes": [
+      "fatigue: 20 → 0",
+      "stress: 20 → 14"
+    ]
+  },
+  {
+    "event_name": "discovery",
+    "initial_state": {
+      "attachment": 60.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 40.0,
+      "stress": 20.0,
+      "joy": 50.0
+    },
+    "expected_final": {
+      "attachment": 60.0,
+      "curiosity": 28.0,
+      "reflection": 36.75,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 40.0,
+      "stress": 20.0,
+      "joy": 56.25
+    },
+    "changes": [
+      "curiosity: 40 → 28",
+      "reflection: 30 → 37",
+      "joy: 50 → 56"
+    ]
+  },
+  {
+    "event_name": "happy_moment",
+    "initial_state": {
+      "attachment": 60.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 40.0,
+      "stress": 20.0,
+      "joy": 50.0
+    },
+    "expected_final": {
+      "attachment": 62.4,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 43.9,
+      "stress": 14.5,
+      "joy": 68.75
+    },
+    "changes": [
+      "joy: 50 → 69",
+      "stress: 20 → 14",
+      "intimacy: 40 → 44",
+      "attachment: 60 → 62"
+    ]
+  },
+  {
+    "event_name": "creative_done",
+    "initial_state": {
+      "attachment": 60.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 40.0,
+      "stress": 20.0,
+      "joy": 50.0
+    },
+    "expected_final": {
+      "attachment": 60.0,
+      "curiosity": 34.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 40.0,
+      "stress": 20.0,
+      "joy": 62.5
+    },
+    "changes": [
+      "joy: 50 → 62",
+      "curiosity: 40 → 34"
+    ]
+  },
+  {
+    "event_name": "wife_message_special_90_10",
+    "initial_state": {
+      "attachment": 90.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 40.0,
+      "stress": 10.0,
+      "joy": 20.0
+    },
+    "expected_final": {
+      "attachment": 92.1,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 41.95,
+      "stress": 10.0,
+      "joy": 20.0
+    },
+    "changes": [
+      "attachment: 90 → 92",
+      "intimacy: 40 → 42"
+    ]
+  },
+  {
+    "event_name": "fight_special_90_10",
+    "initial_state": {
+      "attachment": 90.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 40.0,
+      "stress": 10.0,
+      "joy": 20.0
+    },
+    "expected_final": {
+      "attachment": 100.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 66.0,
+      "stress": 46.25,
+      "joy": 3.5
+    },
+    "changes": [
+      "stress: 10 → 46",
+      "attachment: 90 → 100",
+      "intimacy: 40 → 66"
+    ]
+  },
+  {
+    "event_name": "reconcile_special_90_10",
+    "initial_state": {
+      "attachment": 90.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 40.0,
+      "stress": 10.0,
+      "joy": 20.0
+    },
+    "expected_final": {
+      "attachment": 100.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 53.0,
+      "stress": 0.0,
+      "joy": 34.0
+    },
+    "changes": [
+      "stress: 10 → 0",
+      "attachment: 90 → 100",
+      "intimacy: 40 → 53"
+    ]
+  },
+  {
+    "event_name": "happy_moment_special_90_10",
+    "initial_state": {
+      "attachment": 90.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 40.0,
+      "stress": 10.0,
+      "joy": 20.0
+    },
+    "expected_final": {
+      "attachment": 92.1,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 20.0,
+      "intimacy": 43.9,
+      "stress": 4.75,
+      "joy": 41.0
+    },
+    "changes": [
+      "joy: 20 → 41",
+      "stress: 10 → 5",
+      "intimacy: 40 → 44",
+      "attachment: 90 → 92"
+    ]
+  },
+  {
+    "event_name": "wife_message_special_20_80",
+    "initial_state": {
+      "attachment": 20.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 75.0,
+      "intimacy": 40.0,
+      "stress": 80.0,
+      "joy": 50.0
+    },
+    "expected_final": {
+      "attachment": 22.8,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 75.0,
+      "intimacy": 41.95,
+      "stress": 80.0,
+      "joy": 50.0
+    },
+    "changes": [
+      "attachment: 20 → 23",
+      "intimacy: 40 → 42"
+    ]
+  },
+  {
+    "event_name": "fight_special_20_80",
+    "initial_state": {
+      "attachment": 20.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 75.0,
+      "intimacy": 40.0,
+      "stress": 80.0,
+      "joy": 50.0
+    },
+    "expected_final": {
+      "attachment": 41.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 75.0,
+      "intimacy": 66.0,
+      "stress": 100.0,
+      "joy": 31.25
+    },
+    "changes": [
+      "stress: 80 → 100",
+      "attachment: 20 → 41",
+      "intimacy: 40 → 66"
+    ]
+  },
+  {
+    "event_name": "reconcile_special_20_80",
+    "initial_state": {
+      "attachment": 20.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 75.0,
+      "intimacy": 40.0,
+      "stress": 80.0,
+      "joy": 50.0
+    },
+    "expected_final": {
+      "attachment": 34.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 75.0,
+      "intimacy": 53.0,
+      "stress": 52.0,
+      "joy": 62.5
+    },
+    "changes": [
+      "stress: 80 → 52",
+      "attachment: 20 → 34",
+      "intimacy: 40 → 53"
+    ]
+  },
+  {
+    "event_name": "happy_moment_special_20_80",
+    "initial_state": {
+      "attachment": 20.0,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 75.0,
+      "intimacy": 40.0,
+      "stress": 80.0,
+      "joy": 50.0
+    },
+    "expected_final": {
+      "attachment": 22.8,
+      "curiosity": 40.0,
+      "reflection": 30.0,
+      "duty": 40.0,
+      "social": 30.0,
+      "fatigue": 75.0,
+      "intimacy": 43.9,
+      "stress": 73.0,
+      "joy": 68.75
+    },
+    "changes": [
+      "joy: 50 → 69",
+      "stress: 80 → 73",
+      "intimacy: 40 → 44",
+      "attachment: 20 → 23"
+    ]
+  }
+]
